@@ -11,7 +11,7 @@ namespace THPT.Models
 {
     class Connection
     {
-        public static string connStr = @"Data Source=Localhost;Initial Catalog=QuanLySinhVien;Integrated Security=True";
+        public static string connStr = @"Data Source=LAPTOP-KBK3516B\SQLEXPRESS;Initial Catalog=QuanLySinhVien;Integrated Security=True";
         public static SqlConnection Getconnection()
         {
             SqlConnection con = new SqlConnection(connStr);
