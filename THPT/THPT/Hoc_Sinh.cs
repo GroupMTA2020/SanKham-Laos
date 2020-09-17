@@ -12,16 +12,34 @@ namespace THPT
 {
     public partial class Hoc_Sinh : Form
     {
-      
+        Models.HocVien myHV;
+        int flag = 0;
         public Hoc_Sinh()
         {
             InitializeComponent();
-          
+            HienThiDanhSachSV();
         }
-     
+        public void HienThiDanhSachSV()
+        {
+            var dataTable = Models.HocVien.getTableSinhVien();
+            dgvHocSinh.ReadOnly = true;
+            dgvHocSinh.DataSource = dataTable;
+        }
+        private void clearData()
+        {
+            txtMa_HS.Text = "";
+            txtHoTen_HS.Text = "";
+            dtpNgaySinh_HS.Refresh();
+            cbGT_HS.Text = "-Chọn giới tính-";
+            txtDiaChi.Text = "";
+            txtPhuHuynh.Text = "";
+            cbLop.Text = "-Chọn Lớp-";
+        }
         void btnReload()
         {
-           
+            btnSua_HS.Visible = btnXoa_HS.Visible =
+                btnThem_HS.Visible = !btnSua_HS.Visible;
+            btnHuy.Visible = btnLuu_HS.Visible = !btnLuu_HS.Visible;
         }
         private void btnThem_HS_Click(object sender, EventArgs e)
         {         
@@ -41,7 +59,17 @@ namespace THPT
 
         private void dgvHocSinh_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-           
+            int index = e.RowIndex;
+            if (index >= 0)
+            {
+                txtMa_HS.Text = dgvHocSinh.Rows[index].Cells["MaHS"].Value.ToString();
+                txtHoTen_HS.Text = dgvHocSinh.Rows[index].Cells["HovaTen"].Value.ToString();
+                cbGT_HS.Text = dgvHocSinh.Rows[index].Cells["GT"].Value.ToString();
+                dtpNgaySinh_HS.Text = dgvHocSinh.Rows[index].Cells["NgaySinh"].Value.ToString();
+                txtDiaChi.Text = dgvHocSinh.Rows[index].Cells["DiaChi"].Value.ToString();
+                txtPhuHuynh.Text = dgvHocSinh.Rows[index].Cells["PhuHuynh"].Value.ToString();
+                cbLop.Text = dgvHocSinh.Rows[index].Cells["MaLop"].Value.ToString();
+            }
         }
 
         private void btnHuy_Click(object sender, EventArgs e)
@@ -51,7 +79,37 @@ namespace THPT
 
         private void btnXoa_HS_Click(object sender, EventArgs e)
         {
-           
+            string _MaSV = "";
+            try
+            {
+                _MaSV = txtMa_HS.Text;
+                MessageBox.Show("bạn muốn xóa ID : "+_MaSV);
+            }
+            catch { }
+            DialogResult dr = MessageBox.Show(" Bạn có chắc chắn xóa ?", "Xác nhận ", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);
+            if (dr == DialogResult.Yes)
+            {
+                string ngaySinh = convertToDateSQL(dtpNgaySinh_HS.Value.ToString("dd/MM/yyy"));
+                myHV = new Models.HocVien(txtMa_HS.Text, txtHoTen_HS.Text, cbGT_HS.Text, ngaySinh, txtDiaChi.Text
+                    , txtPhuHuynh.Text, cbLop.Text);
+                var i = myHV.DeleteSinhVien();
+                if (i > 0)
+                {
+                    MessageBox.Show("Xóa Thành Công !");
+
+                }
+                else
+                    MessageBox.Show("Xóa Không thành công");
+            }
+            HienThiDanhSachSV();
+        }
+        public void SearchByKey(string query, string value)
+        {
+
+            query = query + "N'%" + value + "%'";
+            DataTable data = Models.Connection.SeachInDataBase(query);
+            if (data.Rows.Count == 0) MessageBox.Show("Không Tìm Thấy");
+            else dgvHocSinh.DataSource = data;
         }
         private void btntimkiem_Click(object sender, EventArgs e)
         {
