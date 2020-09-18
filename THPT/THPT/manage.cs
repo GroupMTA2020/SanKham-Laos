@@ -40,7 +40,9 @@ namespace THPT
         }  
         private void btnphieu_Click_1(object sender, EventArgs e)
         {
-            AbrirFormEnPanel(new Giao_Vien());
+            Giao_Vien giao_vien = new Giao_Vien();
+            giao_vien.ShowDialog();
+
         }
 
         private void button1_Click_1(object sender, EventArgs e)
