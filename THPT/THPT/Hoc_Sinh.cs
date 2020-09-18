@@ -113,7 +113,26 @@ namespace THPT
         }
         private void btntimkiem_Click(object sender, EventArgs e)
         {
-            
+            string GiaTri = cbTK_HS.GetItemText(this.cbTK_HS.SelectedItem).Trim();
+
+            string keyRow = txtTK_HS.Text;
+            if (GiaTri == "" || keyRow == "")
+            {
+                MessageBox.Show("Chưa Có Thông Tin Cần Tìm");
+            }
+            else
+            {
+
+                string query = "";
+                //set value of query if valuaCol change 
+                if (GiaTri == "MaHS") query = "Select * from tblHocSinh where MaHS like ";
+                if (GiaTri == "HovaTen") query = "Select * from tblHocSinh where HovaTen like ";
+                if (GiaTri == "GT") query = "Select * from tblHocSinh where GT like ";
+                if (GiaTri == "DiaChi") query = "Select * from tblHocSinh where DiaChi like ";
+                if (GiaTri == "PhuHuynh") query = "Select * from tblHocSinh where PhuHuynh like ";
+                if (GiaTri == "MaLop") query = "Select * from tblHocSinh where MaLop like ";
+                SearchByKey(query, keyRow);
+            }
         }
     }
 }
