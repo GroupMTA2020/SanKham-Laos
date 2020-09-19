@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace THPT.Models
+namespace THPT.model
 {
     class HocVien
     {
@@ -53,7 +53,7 @@ namespace THPT.Models
 
         public static DataTable getTableSinhVien()
         {
-            return Models.Connection.getData("splisthocvien", CommandType.StoredProcedure);
+            return model.Connection.getData("splisthocvien", CommandType.StoredProcedure);
         }
         public int InsertSinhVien()
         {
@@ -61,7 +61,7 @@ namespace THPT.Models
                 "@NgaySinh", "@DiaChi", "@PhuHuynh", "@MaLop"};
             object[] values = new object[7] { Mahs, HovaTen, GT, NgaySinh,
                 DiaChi, PhuHuynh, MaLop};
-            var i = Models.Connection.ExcuteQuery("insert_sinhvien",
+            var i = model.Connection.ExcuteQuery("insert_sinhvien",
                 CommandType.StoredProcedure, paras, values);
             return i;
         }
@@ -71,15 +71,15 @@ namespace THPT.Models
                 "@NgaySinh", "@DiaChi", "@PhuHuynh", "@MaLop"};
             object[] values = new object[7] { Mahs, HovaTen, GT, NgaySinh,
                 DiaChi, PhuHuynh, MaLop};
-            var i = Models.Connection.ExcuteQuery("Sua_HS",
+            var i = model.Connection.ExcuteQuery("Sua_HS",
                 CommandType.StoredProcedure, paras, values);
             return i;
         }
         public int DeleteSinhVien()
         {
-            var i = Models.Connection.ExcuteQuery("Xoa_HS",
+            var i = model.Connection.ExcuteQuery("Xoa_HS",
                 CommandType.StoredProcedure, new string[1] { "@MaHS" }, new object[1] { Mahs });
             return i;
-        }        
+        }
     }
 }
