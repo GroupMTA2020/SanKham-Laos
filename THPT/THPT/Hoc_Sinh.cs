@@ -43,18 +43,64 @@ namespace THPT
         }
         private void btnThem_HS_Click(object sender, EventArgs e)
         {         
-        
+            flag = 0;
+            clearData();
+            txtMa_HS.Text = "HV" + dgvHocSinh.Rows.Count.ToString("00000000");
+            btnLuu_HS.Tag = "Them";
+            btnHuy.Tag = "Them";
+            btnReload();
         }
 
         private void btnSua_HS_Click(object sender, EventArgs e)
         {
-     
+            btnReload();
+            flag = 1;
+            btnLuu_HS.Tag = "Sua";
+            btnHuy.Tag = "Sua";
         }
-       
+        string convertToDateSQL(string dateC)
+        {
+            string result;
+            string date = dateC.Split(' ')[0];
+            var X = date.Split('/');
+            result = X[2] + "-" + X[1] + "-" + X[0];
+            return result;
+        }
         private void btnLuu_HS_Click(object sender, EventArgs e)
         {
-          
-          
+            if (btnLuu_HS.Tag.ToString() == "Them")
+            {
+                string ngaySinh = convertToDateSQL(dtpNgaySinh_HS.Value.ToString("dd/MM/yyy"));
+                myHV = new Models.HocVien(txtMa_HS.Text, txtHoTen_HS.Text, cbGT_HS.Text, ngaySinh, txtDiaChi.Text
+                    , txtPhuHuynh.Text, cbLop.Text);
+                //HienThiDanhSachSV();
+                var i = myHV.InsertSinhVien();
+                if (i == 0)
+                {
+                    MessageBox.Show("Thêm mới thất bại !");
+                }
+                else
+                {
+                    MessageBox.Show("Thêm mới thành công !");
+                    HienThiDanhSachSV();
+                }
+            }
+            if (btnLuu_HS.Tag.ToString() == "Sua")
+            {
+                string ngaySinh = convertToDateSQL(dtpNgaySinh_HS.Value.ToString("dd/MM/yyy"));
+                myHV = new Models.HocVien(txtMa_HS.Text, txtHoTen_HS.Text, cbGT_HS.Text, ngaySinh, txtDiaChi.Text
+                    , txtPhuHuynh.Text, cbLop.Text);
+                var i = myHV.UpdateSinhVien();
+                if (i == 0)
+                {
+                    MessageBox.Show("Sửa thất bại !");
+                }
+                else
+                {
+                    MessageBox.Show("Sửa thành công !");
+                    HienThiDanhSachSV();
+                }
+            }
         }
 
         private void dgvHocSinh_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -74,7 +120,27 @@ namespace THPT
 
         private void btnHuy_Click(object sender, EventArgs e)
         {
-           
+            if (btnHuy.Tag.ToString() == "Them")
+            {
+                txtMa_HS.Text = "";
+                txtHoTen_HS.Text ="";
+                cbGT_HS.Text = "-Chọn Giới Tính-";
+                dtpNgaySinh_HS.Refresh();
+                txtDiaChi.Text = "";
+                txtPhuHuynh.Text = "";
+                cbLop.Text = "-Chọn Lớp-";
+            }
+            if (btnHuy.Tag.ToString() == "Sua")
+            {
+                txtMa_HS.Text = "";
+                txtHoTen_HS.Text = "";
+                cbGT_HS.Text = "-Chọn Giới Tính-";
+                dtpNgaySinh_HS.Refresh();
+                txtDiaChi.Text = "";
+                txtPhuHuynh.Text = "";
+                cbLop.Text = "-Chọn Lớp-";
+            }
+            btnReload();
         }
 
         private void btnXoa_HS_Click(object sender, EventArgs e)

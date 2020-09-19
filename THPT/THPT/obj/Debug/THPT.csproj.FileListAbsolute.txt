@@ -1,0 +1,47 @@
+C:\Users\Admin\Desktop\ThucTapNhom\SanKham\THPT\THPT\bin\Debug\THPT.exe.config
+C:\Users\Admin\Desktop\ThucTapNhom\SanKham\THPT\THPT\bin\Debug\THPT.exe
+C:\Users\Admin\Desktop\ThucTapNhom\SanKham\THPT\THPT\bin\Debug\THPT.pdb
+C:\Users\Admin\Desktop\ThucTapNhom\SanKham\THPT\THPT\obj\Debug\THPT.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\ThucTapNhom\SanKham\THPT\THPT\obj\Debug\THPT.frmDangNhap.resources
+C:\Users\Admin\Desktop\ThucTapNhom\SanKham\THPT\THPT\obj\Debug\THPT.Properties.Resources.resources
+C:\Users\Admin\Desktop\ThucTapNhom\SanKham\THPT\THPT\obj\Debug\THPT.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\ThucTapNhom\SanKham\THPT\THPT\obj\Debug\THPT.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\ThucTapNhom\SanKham\THPT\THPT\obj\Debug\THPT.exe
+C:\Users\Admin\Desktop\ThucTapNhom\SanKham\THPT\THPT\obj\Debug\THPT.pdb
+C:\Users\PC\Documents\GitHub\ThucTapNhom\SanKham\THPT\THPT\bin\Debug\THPT.exe.config
+C:\Users\PC\Documents\GitHub\ThucTapNhom\SanKham\THPT\THPT\bin\Debug\THPT.exe
+C:\Users\PC\Documents\GitHub\ThucTapNhom\SanKham\THPT\THPT\bin\Debug\THPT.pdb
+C:\Users\PC\Documents\GitHub\ThucTapNhom\SanKham\THPT\THPT\obj\Debug\THPT.frmDangNhap.resources
+C:\Users\PC\Documents\GitHub\ThucTapNhom\SanKham\THPT\THPT\obj\Debug\THPT.Hoc_Sinh.resources
+C:\Users\PC\Documents\GitHub\ThucTapNhom\SanKham\THPT\THPT\obj\Debug\THPT.Properties.Resources.resources
+C:\Users\PC\Documents\GitHub\ThucTapNhom\SanKham\THPT\THPT\obj\Debug\THPT.csproj.GenerateResource.cache
+C:\Users\PC\Documents\GitHub\ThucTapNhom\SanKham\THPT\THPT\obj\Debug\THPT.exe
+C:\Users\PC\Documents\GitHub\ThucTapNhom\SanKham\THPT\THPT\obj\Debug\THPT.pdb
+C:\Users\Admin\OneDrive\Máy tính\GitHub\SanKham\THPT\THPT\obj\Debug\THPT.csprojAssemblyReference.cache
+C:\Users\Admin\OneDrive\Máy tính\GitHub\SanKham\THPT\THPT\obj\Debug\THPT.frmDangNhap.resources
+C:\Users\Admin\OneDrive\Máy tính\GitHub\SanKham\THPT\THPT\obj\Debug\THPT.Giao_Vien.resources
+C:\Users\Admin\OneDrive\Máy tính\GitHub\SanKham\THPT\THPT\obj\Debug\THPT.Hoc_Sinh.resources
+C:\Users\Admin\OneDrive\Máy tính\GitHub\SanKham\THPT\THPT\obj\Debug\THPT.Properties.Resources.resources
+C:\Users\Admin\OneDrive\Máy tính\GitHub\SanKham\THPT\THPT\obj\Debug\THPT.QLGD.resources
+C:\Users\Admin\OneDrive\Máy tính\GitHub\SanKham\THPT\THPT\obj\Debug\THPT.csproj.GenerateResource.cache
+C:\Users\Admin\OneDrive\Máy tính\GitHub\SanKham\THPT\THPT\obj\Debug\THPT.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive\Máy tính\GitHub\SanKham\THPT\THPT\obj\Debug\THPT.exe
+C:\Users\Admin\OneDrive\Máy tính\GitHub\SanKham\THPT\THPT\obj\Debug\THPT.pdb
+C:\Users\quock\Documents\Year 4 - semeter 1\Thực Tập Nhóm\Thực Tập Nhóm\SanKham\THPT\THPT\obj\Debug\THPT.csprojAssemblyReference.cache
+C:\Users\quock\Documents\Year 4 - semeter 1\Thực Tập Nhóm\Thực Tập Nhóm\SanKham\THPT\THPT\obj\Debug\THPT.frmDangNhap.resources
+C:\Users\quock\Documents\Year 4 - semeter 1\Thực Tập Nhóm\Thực Tập Nhóm\SanKham\THPT\THPT\obj\Debug\THPT.Giao_Vien.resources
+C:\Users\quock\Documents\Year 4 - semeter 1\Thực Tập Nhóm\Thực Tập Nhóm\SanKham\THPT\THPT\obj\Debug\THPT.Hoc_Sinh.resources
+C:\Users\quock\Documents\Year 4 - semeter 1\Thực Tập Nhóm\Thực Tập Nhóm\SanKham\THPT\THPT\obj\Debug\THPT.HuongDanForm.resources
+C:\Users\quock\Documents\Year 4 - semeter 1\Thực Tập Nhóm\Thực Tập Nhóm\SanKham\THPT\THPT\obj\Debug\THPT.Properties.Resources.resources
+C:\Users\quock\Documents\Year 4 - semeter 1\Thực Tập Nhóm\Thực Tập Nhóm\SanKham\THPT\THPT\obj\Debug\THPT.QLGD.resources
+C:\Users\quock\Documents\Year 4 - semeter 1\Thực Tập Nhóm\Thực Tập Nhóm\SanKham\THPT\THPT\obj\Debug\THPT.TT_Giang_Day.resources
+C:\Users\quock\Documents\Year 4 - semeter 1\Thực Tập Nhóm\Thực Tập Nhóm\SanKham\THPT\THPT\obj\Debug\THPT.csproj.GenerateResource.cache
+C:\Users\quock\Documents\Year 4 - semeter 1\Thực Tập Nhóm\Thực Tập Nhóm\SanKham\THPT\THPT\obj\Debug\THPT.csproj.CoreCompileInputs.cache
+C:\Users\quock\Documents\Year 4 - semeter 1\Thực Tập Nhóm\Thực Tập Nhóm\SanKham\THPT\THPT\obj\Debug\THPT.exe
+C:\Users\quock\Documents\Year 4 - semeter 1\Thực Tập Nhóm\Thực Tập Nhóm\SanKham\THPT\THPT\obj\Debug\THPT.pdb
+C:\Users\PC\Documents\GitHub\ThucTapNhom\SanKham\THPT\THPT\obj\Debug\THPT.Giao_Vien.resources
+C:\Users\PC\Documents\GitHub\ThucTapNhom\SanKham\THPT\THPT\obj\Debug\THPT.HuongDanForm.resources
+C:\Users\PC\Documents\GitHub\ThucTapNhom\SanKham\THPT\THPT\obj\Debug\THPT.QLGD.resources
+C:\Users\PC\Documents\GitHub\ThucTapNhom\SanKham\THPT\THPT\obj\Debug\THPT.TT_Giang_Day.resources
+C:\Users\PC\Documents\GitHub\ThucTapNhom\SanKham\THPT\THPT\obj\Debug\THPT.manage.resources
+C:\Users\PC\Documents\GitHub\ThucTapNhom\SanKham\THPT\THPT\obj\Debug\THPT.csprojAssemblyReference.cache
