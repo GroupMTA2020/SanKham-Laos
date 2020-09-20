@@ -45,3 +45,18 @@ C:\Users\PC\Documents\GitHub\ThucTapNhom\SanKham\THPT\THPT\obj\Debug\THPT.QLGD.r
 C:\Users\PC\Documents\GitHub\ThucTapNhom\SanKham\THPT\THPT\obj\Debug\THPT.TT_Giang_Day.resources
 C:\Users\PC\Documents\GitHub\ThucTapNhom\SanKham\THPT\THPT\obj\Debug\THPT.manage.resources
 C:\Users\PC\Documents\GitHub\ThucTapNhom\SanKham\THPT\THPT\obj\Debug\THPT.csprojAssemblyReference.cache
+E:\Thực Tập Nhóm 2020\SanKham-Laos\THPT\THPT\bin\Debug\THPT.exe.config
+E:\Thực Tập Nhóm 2020\SanKham-Laos\THPT\THPT\bin\Debug\THPT.exe
+E:\Thực Tập Nhóm 2020\SanKham-Laos\THPT\THPT\bin\Debug\THPT.pdb
+E:\Thực Tập Nhóm 2020\SanKham-Laos\THPT\THPT\obj\Debug\THPT.csprojAssemblyReference.cache
+E:\Thực Tập Nhóm 2020\SanKham-Laos\THPT\THPT\obj\Debug\THPT.frmDangNhap.resources
+E:\Thực Tập Nhóm 2020\SanKham-Laos\THPT\THPT\obj\Debug\THPT.Giao_Vien.resources
+E:\Thực Tập Nhóm 2020\SanKham-Laos\THPT\THPT\obj\Debug\THPT.Hoc_Sinh.resources
+E:\Thực Tập Nhóm 2020\SanKham-Laos\THPT\THPT\obj\Debug\THPT.HuongDanForm.resources
+E:\Thực Tập Nhóm 2020\SanKham-Laos\THPT\THPT\obj\Debug\THPT.manage.resources
+E:\Thực Tập Nhóm 2020\SanKham-Laos\THPT\THPT\obj\Debug\THPT.Properties.Resources.resources
+E:\Thực Tập Nhóm 2020\SanKham-Laos\THPT\THPT\obj\Debug\THPT.QLGD.resources
+E:\Thực Tập Nhóm 2020\SanKham-Laos\THPT\THPT\obj\Debug\THPT.TT_Giang_Day.resources
+E:\Thực Tập Nhóm 2020\SanKham-Laos\THPT\THPT\obj\Debug\THPT.csproj.GenerateResource.cache
+E:\Thực Tập Nhóm 2020\SanKham-Laos\THPT\THPT\obj\Debug\THPT.exe
+E:\Thực Tập Nhóm 2020\SanKham-Laos\THPT\THPT\obj\Debug\THPT.pdb
