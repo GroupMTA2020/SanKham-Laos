@@ -140,6 +140,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\Images\Hd_DangNhap.png" />
+    <None Include="Resources\main.png" />
+    <None Include="Resources\hvien.png" />
+    <None Include="Resources\ttgd.png" />
+    <None Include="Resources\fmgv.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

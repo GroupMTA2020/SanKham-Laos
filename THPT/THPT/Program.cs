@@ -16,7 +16,7 @@ namespace THPT
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Giao_Vien());
+            Application.Run(new frmDangNhap());
         }
     }
 }

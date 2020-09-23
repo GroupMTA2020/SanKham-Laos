@@ -26,20 +26,26 @@ namespace THPT
             }
             else if(e.Node.Name == "Main")
             {
-                //do something
-                //pictureBox1.Image = global::THPT.Properties.Resources.
+                pictureBox1.Image = global::THPT.Properties.Resources.main;
+                richTextBox1.Text = "Click vào các button để sử dụng các chức năng\n1: Button 'Giáo Viên' hiển thị thông tin giáo viên và các thao tác sử lý\n2: button 'Hướng dẫn'" +
+                    "để hiển thị các hướng dẫn"
+                    + "\n3: Button 'TT_GiangDay' để hiển thị các thông tin liên quan"
+                    + "\n4: Button 'Học Viên' để hiển thị các thông tin về học viên";
             }
             else if( e.Node.Name == "HocSinh")
             {
-                //do something
+                pictureBox1.Image = global::THPT.Properties.Resources.hvien;
+                richTextBox1.Text = "Thông tin học viên được hiển thị, click vào học viên muốn sửa hoặc xóa để thao tác, có thể thêm học viên với button thêm";
             }
             else if(e.Node.Name == "GiaoVien")
             {
-
+                pictureBox1.Image = global::THPT.Properties.Resources.fmgv;
+                richTextBox1.Text = "Thông tin giáo viên được hiển thị, click vào giáo viên để chỉnh sửa thông tin, có thể thêm mới giáo viên bằng button thêm";
             }
             else if(e.Node.Name == "ThongTinGiangDay")
             {
-                //do something
+                pictureBox1.Image = global::THPT.Properties.Resources.ttgd;
+                richTextBox1.Text = "Tìm kiếm các thông tin liên quan đến giáo viên, lớp học, học viên, có thể chỉnh sửa, thêm , xóa.";
             }
         }
     }
