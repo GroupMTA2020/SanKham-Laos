@@ -1,0 +1,8 @@
+# Hướng dẫn cài đặt sử dụng
+** Cài đặt
++ Download từ github qua link : https://github.com/GroupMTA2020/SanKham-Laos/archive/main.zip
++ Giải nén thư mục
++ Chạy chương trình bằng cách vào thư mục ./SanKham-Laos/quanlykhachsan/quanlykhachsan/bin/Debug/quanlykhachsan.exe
+
+** Sử dụng
+Chương trình khời động nên cần phải đăng nhập với tài khoản được cấp.
